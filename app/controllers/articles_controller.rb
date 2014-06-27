@@ -4,12 +4,14 @@ class ArticlesController < ApplicationController
   # GET /articles
   # GET /articles.json
   def index
+    @title = "All Articles"
     @articles = Article.all
   end
 
   # GET /articles/1
   # GET /articles/1.json
   def show
+
   end
 
   # GET /articles/new
